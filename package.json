@@ -1,10 +1,12 @@
 {
   "name": "twitter",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "start": "node main.js"
   },
   "author": "MauroMontan",
   "license": "ISC",
